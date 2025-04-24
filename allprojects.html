@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Projects</title>
+    <link rel="stylesheet" href="portfolio2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="all-projects-container">
+      <h1>All My Projects</h1>
+      <div class="projects-grid" id="all-projects-grid"></div>
+      <a href="portfolio_ver2.html" class="cta-button back-button"
+        >Back to Portfolio</a
+      >
+    </div>
+    <script src="script.js"></script>
+    <script>
+      // Import the projects data from your main file
+      // Projects Data with Status
+      // const projects = [
+      //   {
+      //     title: "E-commerce Platform",
+      //     description:
+      //       "A full-featured online store with payment integration and inventory management.",
+      //     image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+1",
+      //     technologies: ["React", "Node.js", "MongoDB"],
+      //     demoLink: "#",
+      //     codeLink: "#",
+      //     status: "completed",
+      //   },
+      //   {
+      //     title: "Task Management App",
+      //     description:
+      //       "A productivity application for team collaboration and task organization.",
+      //     image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+2",
+      //     technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
+      //     demoLink: "#",
+      //     codeLink: "#",
+      //     status: "in-progress",
+      //   },
+      //   {
+      //     title: "Weather Dashboard",
+      //     description:
+      //       "Real-time weather forecasting application with interactive maps.",
+      //     image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+3",
+      //     technologies: ["JavaScript", "API", "CSS3"],
+      //     demoLink: "#",
+      //     codeLink: "#",
+      //     status: "future",
+      //   },
+      // ];
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const projectsGrid = document.getElementById("all-projects-grid");
+
+        // Generate all projects
+        allprojects.forEach((project) => {
+          const projectCard = document.createElement("div");
+          projectCard.className = "project-card";
+
+          projectCard.innerHTML = `
+      <div class="project-image">
+        <img src="${project.image}" alt="${project.title}" />
+        <div class="project-status status-${
+          project.status
+        }">Status: ${formatStatus(project.status)}</div>
+      </div>
+      <div class="project-info">
+        <h3>${project.title}</h3>
+        <p>${project.description}</p>
+        <div class="project-tech">
+          ${project.technologies.map((tech) => `<span>${tech}</span>`).join("")}
+        </div>
+        <div class="project-links">
+          <a href="${
+            project.demoLink
+          }" target="_blank" class="project-link">Live Demo</a>
+          <a href="${
+            project.codeLink
+          }" target="_blank" class="project-link">Code</a>
+        </div>
+      </div>
+    `;
+
+          projectsGrid.appendChild(projectCard);
+        });
+
+        // Helper function to format status text
+        function formatStatus(status) {
+          const statusMap = {
+            completed: "Completed",
+            "in-progress": "In Progress",
+            future: "Future Project",
+          };
+          return statusMap[status] || status;
+        }
+      });
+    </script>
+  </body>
+</html>

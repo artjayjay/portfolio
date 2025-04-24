@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John's Portfolio</title>
+    <link rel="stylesheet" href="portfolio2.css" />
+    <link rel="icon" href="LFcoding.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- SVG Background Container -->
+    <div class="svg-background">
+      <img src="home.svg" alt="Background" class="svg-bg-image" />
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <header>
+        <button class="hamburger" aria-label="Menu">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="home">
+        <div class="hero-container">
+          <div class="intro-content">
+            <div class="intro-text">
+              <h1>
+                <span id="typed-text"></span><span class="cursor">|</span>
+              </h1>
+            </div>
+            <p class="tagline">Creative Full Stack Developer</p>
+            <a href="#work" class="cta-button">View My Work</a>
+          </div>
+
+          <!-- Avatar Container - Replace with your own image -->
+          <div class="avatar-container">
+            <img
+              src="https://placehold.co/400x400/1a1a2e/ffffff?text=Your+Photo"
+              alt="Profile Avatar"
+              class="avatar"
+            />
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- Work Section -->
+    <section id="work" class="work-section">
+      <div class="work-container">
+        <h2 class="section-title">My Work</h2>
+        <p class="section-subtitle">Here are some of my recent projects</p>
+
+        <!-- In your projects section, update each project card like this: -->
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://placehold.co/600x400/1a1a2e/ffffff?text=Project+1"
+                alt="Project 1"
+              />
+              <div class="project-status status-completed">
+                Status: Completed
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-commerce Platform</h3>
+              <p>
+                A full-featured online store with payment integration and
+                inventory management.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="project-link">Live Demo</a>
+                <a href="#" target="_blank" class="project-link">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://placehold.co/600x400/1a1a2e/ffffff?text=Project+2"
+                alt="Project 2"
+              />
+              <div class="project-status status-in-progress">
+                Status: In Progress
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Task Management App</h3>
+              <p>
+                A productivity application for team collaboration and task
+                organization.
+              </p>
+              <div class="project-tech">
+                <span>Vue.js</span>
+                <span>Firebase</span>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="project-link">Live Demo</a>
+                <a href="#" target="_blank" class="project-link">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://placehold.co/600x400/1a1a2e/ffffff?text=Project+3"
+                alt="Project 3"
+              />
+              <div class="project-status status-future">
+                Status: Future Project
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Weather Dashboard</h3>
+              <p>
+                Real-time weather forecasting application with interactive maps.
+              </p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>API</span>
+                <span>CSS3</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="project-link">Live Demo</a>
+                <a href="#" target="_blank" class="project-link">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="allprojects.html" class="cta-button">View More Projects</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+      <div class="services-container">
+        <h2 class="section-title">My Services</h2>
+        <p class="section-subtitle">What I can do for you</p>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              Custom website development from simple landing pages to complex
+              web applications using modern technologies.
+            </p>
+            <div class="service-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>React</span>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>Backend Development</h3>
+            <p>
+              Robust server-side solutions, API development, and database
+              architecture for your applications.
+            </p>
+            <div class="service-tech">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Responsive Design</h3>
+            <p>
+              Mobile-first approach to ensure your website looks and works
+              perfectly on all devices.
+            </p>
+            <div class="service-tech">
+              <span>Flexbox</span>
+              <span>Grid</span>
+              <span>Media Queries</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Technical Consulting</h3>
+            <p>
+              Expert advice on technology stack, architecture decisions, and
+              best practices for your project.
+            </p>
+            <div class="service-tech">
+              <span>System Design</span>
+              <span>Code Review</span>
+              <span>Optimization</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+      <div class="testimonials-container">
+        <h2 class="section-title">What People Say</h2>
+        <p class="section-subtitle">Testimonials from clients and colleagues</p>
+        <div class="testimonials-grid" id="testimonials-grid"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">My professional journey and skills</p>
+
+        <div class="about-content">
+          <div class="about-card">
+            <h3><i class="fas fa-user"></i> Profile</h3>
+            <div class="about-text">
+              <p>
+                I'm a passionate Full Stack Developer with diverse experience in
+                IT support, customer service, and technical configuration. My
+                journey through different tech roles has given me a unique
+                perspective on creating user-friendly applications.
+              </p>
+              <p>
+                I specialize in JavaScript frameworks and enjoy solving complex
+                problems with clean, efficient code. My background in
+                customer-facing roles helps me build applications with excellent
+                user experiences.
+              </p>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <h3><i class="fas fa-code"></i> Technical Skills</h3>
+            <div class="skills-grid">
+              <div class="skill-category">
+                <h4>Frontend</h4>
+                <ul>
+                  <li>JavaScript (ES6+)</li>
+                  <li>React.js</li>
+                  <li>HTML5 & CSS3</li>
+                  <li>Vue.js</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h4>Backend</h4>
+                <ul>
+                  <li>Node.js</li>
+                  <li>Python</li>
+                  <li>Express</li>
+                  <li>Django</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h4>Database</h4>
+                <ul>
+                  <li>MongoDB</li>
+                  <li>PostgreSQL</li>
+                  <li>MySQL</li>
+                  <li>Firebase</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h4>Tools</h4>
+                <ul>
+                  <li>Git & GitHub</li>
+                  <li>Docker</li>
+                  <li>REST APIs</li>
+                  <li>AWS Basics</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">2021 - 2023</div>
+                <div class="timeline-content">
+                  <h4>Configuration Specialist</h4>
+                  <p class="company">ITM8</p>
+                  <ul>
+                    <li>
+                      Configured and deployed software solutions for clients
+                    </li>
+                    <li>Troubleshoot technical issues and provided support</li>
+                    <li>
+                      Collaborated with development teams on product
+                      improvements
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2019 - 2021</div>
+                <div class="timeline-content">
+                  <h4>Customer Service Representative</h4>
+                  <p class="company">Amazon</p>
+                  <ul>
+                    <li>Resolved customer inquiries and technical issues</li>
+                    <li>Documented and reported software bugs</li>
+                    <li>Maintained high customer satisfaction ratings</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2017 - 2019</div>
+                <div class="timeline-content">
+                  <h4>IT Assistant</h4>
+                  <p class="company">Accounting Firm</p>
+                  <ul>
+                    <li>Provided technical support for office systems</li>
+                    <li>Managed hardware and software installations</li>
+                    <li>Assisted with accounting software configuration</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="goals-card">
+            <h3><i class="fas fa-bullseye"></i> Career Goals</h3>
+            <div class="goals-content">
+              <p>
+                I'm seeking a full-time position as a Full Stack Developer where
+                I can contribute my technical skills and grow as a professional.
+              </p>
+              <p>My long-term goals include:</p>
+              <ul>
+                <li>Mastering modern JavaScript frameworks</li>
+                <li>Developing expertise in cloud technologies</li>
+                <li>Contributing to open source projects</li>
+                <li>Mentoring junior developers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's work together</p>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-method">
+              <i class="fas fa-envelope"></i>
+              <h3>Email</h3>
+              <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+            </div>
+
+            <div class="contact-method">
+              <i class="fas fa-phone-alt"></i>
+              <h3>Phone</h3>
+              <a href="tel:+1234567890">+1 (234) 567-890</a>
+            </div>
+
+            <div class="contact-method">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Location</h3>
+              <p>San Francisco, CA</p>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <h3>Connect with me</h3>
+            <div class="social-icons">
+              <a
+                href="https://github.com/yourusername"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://linkedin.com/in/yourusername"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://twitter.com/yourusername"
+                target="_blank"
+                aria-label="Twitter"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://instagram.com/yourusername"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://codepen.io/yourusername"
+                target="_blank"
+                aria-label="CodePen"
+              >
+                <i class="fab fa-codepen"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
