@@ -243,7 +243,7 @@ const testimonials = [
     schedule and with exceptional quality. His attention to 
     detail and problem-solving skills were impressive throughout the project.`,
     author: "Alfred John Estonilo",
-    title: "Audio Visual Technical Support, Meralco",
+    title: "Audio Visual Technical Support, Geoplan",
     avatar: "https://placehold.co/80x80/1a1a2e/ffffff?text=AE",
   },
   {
