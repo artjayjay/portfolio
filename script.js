@@ -243,7 +243,7 @@ const testimonials = [
     schedule and with exceptional quality. His attention to 
     detail and problem-solving skills were impressive throughout the project.`,
     author: "Alfred John Estonilo",
-    title: "Audio Visual Technical Support, Alfred's Company.",
+    title: "Audio Visual Technical Support, Meralco",
     avatar: "https://placehold.co/80x80/1a1a2e/ffffff?text=AE",
   },
   {
@@ -252,7 +252,7 @@ const testimonials = [
     He consistently provided innovative solutions and his communication was excellent. 
     Highly recommended!`,
     author: "Kevin Paul Zapanta",
-    title: "Assistant, Zapanta's Company",
+    title: "Assistant, Motors",
     avatar: "https://placehold.co/80x80/1a1a2e/ffffff?text=KZ",
   },
   {
