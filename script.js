@@ -4,15 +4,15 @@ const personalInfo = {
   name: "Arturo Dela Cruz",
   title: "Creative FrontEnd Backend Developer",
   tagline: "Creative Frontend Backend Developer",
-  avatar: "https://placehold.co/400x400/1a1a2e/ffffff?text=Your+Photo",
+  avatar: "profile_pic.png",
   location: "Philippines",
   email: "arturomeprof@gmail.com",
   phone: "+639922471654",
   social: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
+    github: "https://github.com/artjayjay",
+    linkedin: "https://linkedin.com/in/arturo-dela-cruz-464b58271",
     twitter: "https://twitter.com/yourusername",
-    instagram: "https://instagram.com/yourusername",
+    instagram: "https://instagram.com/arturomeprof?igsh=NG9iOW0zNDE4eTZn",
     codepen: "https://codepen.io/yourusername",
   },
 };
@@ -32,7 +32,7 @@ const projects = [
     description: `A karaoke application built with Python and FastAPI, 
       featuring a song browser, queue management, and a 
       player with scoring functionality.`,
-    image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+1",
+    image: "projects/karaokeimg.png",
     technologies: [
       "Python",
       "Sqlite",
@@ -68,7 +68,7 @@ const projects = [
     title: "Enrollment System",
     description: `A capstone project designed to streamline the 
     enrollment process for students, ensuring efficiency and accuracy.`,
-    image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+3",
+    image: "projects/enrollment_system.png",
     technologies: [
       "Python",
       "Sqlite",
@@ -89,7 +89,7 @@ const allprojects = [
     description: `A karaoke application built with Python and FastAPI, 
           featuring a song browser, queue management, and a 
           player with scoring functionality.`,
-    image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+1",
+    image: "projects/karaokeimg.png",
     technologies: ["Python", "Sqlite", "Html", "Scss", "Javascript", "FastAPI"],
     demoLink: "#",
     codeLink: "#",
@@ -118,8 +118,69 @@ const allprojects = [
     title: "Enrollment System",
     description: `A capstone project designed to streamline the 
         enrollment process for students, ensuring efficiency and accuracy.`,
-    image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+3",
+    image: "projects/enrollment_system.png",
     technologies: ["Python", "Sqlite", "Html", "Scss", "Javascript", "FastAPI"],
+    demoLink: "#",
+    codeLink: "#",
+    status: "future",
+  },
+  {
+    title: "Dance Move Detection System",
+    description: `A Just Dance-inspired project that uses AI to detect 
+    and compare dance moves to a predefined choreography.`,
+    image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+4",
+    technologies: ["Python", "OpenCV", "MediaPipe", "TensorFlow", "FastAPI"],
+    demoLink: "#",
+    codeLink: "#",
+    status: "future",
+  },
+  {
+    title: "AI-Powered CCTV System",
+    description: `A CCTV system integrated with AI for 
+    real-time object detection and facial recognition.`,
+    image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+5",
+    technologies: ["Python", "OpenCV", "TensorFlow", "Raspberry Pi"],
+    demoLink: "#",
+    codeLink: "#",
+    status: "future",
+  },
+  {
+    title: "Smart Home Assistant",
+    description: `A Raspberry Pi-based smart home assistant that integrates AI, 
+    Docker, and IoT to automate household tasks such as water pressure regulation, 
+    electricity control, CCTV monitoring, and media entertainment.`,
+    image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+6",
+    technologies: [
+      "Raspberry Pi",
+      "Docker",
+      "Python",
+      "AI (OpenCV, TensorFlow)",
+      "Home Assistant",
+      "Jellyfin",
+      "MQTT",
+    ],
+    demoLink: "#",
+    codeLink: "#",
+    status: "future",
+  },
+  {
+    title: "Customer Service Softphone App",
+    description: `A client or customer service application with softphone 
+    capabilities for receiving inbound and making outbound calls. 
+    It has multichannel communication functionalities such as phone chat email sms etc, 
+    integrated with a phone provider's business portal API. Designed for 
+    both retail and tech companies, it also features a ticketing system for 
+    efficient issue tracking and resolution.`,
+    image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+7",
+    technologies: [
+      "Python",
+      "FastAPI",
+      "Docker",
+      "Asterisk PBX",
+      "WebRTC",
+      "Phone Provider API (e.g., Vonage, Plivo, or custom provider)",
+      "SQLite/PostgreSQL",
+    ],
     demoLink: "#",
     codeLink: "#",
     status: "future",
@@ -178,24 +239,30 @@ const services = [
 const testimonials = [
   {
     id: 1,
-    text: "John delivered our e-commerce platform ahead of schedule and with exceptional quality. His attention to detail and problem-solving skills were impressive throughout the project.",
+    text: `Arturo delivered our project ahead of 
+    schedule and with exceptional quality. His attention to 
+    detail and problem-solving skills were impressive throughout the project.`,
     author: "Alfred John Estonilo",
-    title: "CEO, TechStart Inc.",
+    title: "Audio Visual Technical Support, Alfred's Company.",
     avatar: "https://placehold.co/80x80/1a1a2e/ffffff?text=AE",
   },
   {
     id: 2,
-    text: "Working with John on our task management app was a pleasure. He consistently provided innovative solutions and his communication was excellent. Highly recommended!",
+    text: `Working with Arturo on our project was a pleasure. 
+    He consistently provided innovative solutions and his communication was excellent. 
+    Highly recommended!`,
     author: "Kevin Paul Zapanta",
-    title: "CTO, ProductiveTeams",
+    title: "Assistant, Zapanta's Company",
     avatar: "https://placehold.co/80x80/1a1a2e/ffffff?text=KZ",
   },
   {
     id: 3,
-    text: "John's technical consulting helped us make crucial architecture decisions for our platform. His expertise saved us months of development time and potential costly mistakes.",
-    author: "Amanda Rodriguez",
-    title: "Lead Developer, CloudSolutions",
-    avatar: "https://placehold.co/80x80/1a1a2e/ffffff?text=AR",
+    text: `Arturo's technical expertise helped us make crucial 
+    decisions for our project. His expertise saved us months of development 
+    time and potential costly mistakes.`,
+    author: "Carmichael Ortiz",
+    title: "IT Programmer, AP Printing and Packaging Inc.",
+    avatar: "https://placehold.co/80x80/1a1a2e/ffffff?text=CO",
   },
 ];
 
