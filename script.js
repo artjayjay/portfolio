@@ -251,9 +251,9 @@ const testimonials = [
     text: `Working with Arturo on our project was a pleasure. 
     He consistently provided innovative solutions and his communication was excellent. 
     Highly recommended!`,
-    author: "Kevin Paul Zapanta",
-    title: "Assistant, Motors",
-    avatar: "https://placehold.co/80x80/1a1a2e/ffffff?text=KZ",
+    author: "Angelyn Balquiedra",
+    title: "Customer Service Representative, Anbosi Philippines",
+    avatar: "https://placehold.co/80x80/1a1a2e/ffffff?text=AB",
   },
   {
     id: 3,
