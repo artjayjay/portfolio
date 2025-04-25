@@ -10,6 +10,7 @@ const personalInfo = {
   phone: "+639922471654",
   social: {
     github: "https://github.com/artjayjay",
+    facebook: "https://web.facebook.com/profile.php?id=100090357955967",
     linkedin: "https://linkedin.com/in/arturo-dela-cruz-464b58271",
     twitter: "https://twitter.com/yourusername",
     instagram: "https://instagram.com/arturomeprof?igsh=NG9iOW0zNDE4eTZn",
@@ -362,6 +363,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Set social links
   document.querySelector(".social-icons a[aria-label='GitHub']").href =
     personalInfo.social.github;
+  document.querySelector(".social-icons a[aria-label='Facebook']").href =
+    personalInfo.social.facebook;
   document.querySelector(".social-icons a[aria-label='LinkedIn']").href =
     personalInfo.social.linkedin;
   document.querySelector(".social-icons a[aria-label='Twitter']").href =
