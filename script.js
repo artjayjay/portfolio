@@ -121,7 +121,7 @@ const allprojects = [
     image: "projects/enrollment_system.png",
     technologies: ["Python", "Sqlite", "Html", "Scss", "Javascript", "FastAPI"],
     demoLink: "#",
-    codeLink: "#",
+    codeLink: "https://github.com/artjayjay/KSE_enrollment_system",
     status: "future",
   },
   {
@@ -131,7 +131,7 @@ const allprojects = [
     image: "https://placehold.co/600x400/1a1a2e/ffffff?text=Project+4",
     technologies: ["Python", "OpenCV", "MediaPipe", "TensorFlow", "FastAPI"],
     demoLink: "#",
-    codeLink: "https://github.com/artjayjay/KSE_enrollment_system",
+    codeLink: "#",
     status: "future",
   },
   {
