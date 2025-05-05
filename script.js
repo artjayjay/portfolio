@@ -123,7 +123,7 @@ const allprojects = [
     technologies: ["Python", "Sqlite", "Html", "Scss", "Javascript", "FastAPI"],
     demoLink: "#",
     codeLink: "https://github.com/artjayjay/KSE_enrollment_system",
-    status: "future",
+    status: "in-progress",
   },
   {
     title: "Dance Move Detection System",
@@ -428,7 +428,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="project-links">
           <a href="${
             project.demoLink
-          }" target="_blank" class="project-link">Live Demo</a>
+          }" target="_blank" class="project-link">Demo</a>
           <a href="${
             project.codeLink
           }" target="_blank" class="project-link">Code</a>
